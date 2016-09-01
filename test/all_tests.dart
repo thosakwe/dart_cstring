@@ -9,6 +9,7 @@ main() {
       for (String unit in units) {
         var ch = new Char(unit);
         expect(ch.isAlpha(), equals(true));
+        print("'${ch.value}' is a letter");
       }
     });
   });
