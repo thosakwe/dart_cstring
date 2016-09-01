@@ -31,3 +31,6 @@ pubspec.lock
 *.so
 *.lib
 *.dll
+
+# Bye WebStorm
+.idea
