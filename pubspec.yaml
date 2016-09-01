@@ -1,0 +1,7 @@
+name: cstring
+description: Char support + Native bindings for a few <cstring> functions.
+author: Tobe O <thosakwe@gmail.com>
+version: 1.0.0-dev
+homepage: https://github.com/thosakwe/dart_cstring
+dev_dependencies:
+  test: ">=0.12.15+6 <0.13.0"
