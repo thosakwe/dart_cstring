@@ -78,11 +78,11 @@ class StringEditor {
       return new StringEditor.fromCharCodes(
           []..addAll(chars)..addAll(other.codeUnits));
     } else if (other is int) {
-      return new String.fromCharCodes([]
+      return new StringEditor.fromCharCodes([]
         ..addAll(chars)
         ..add(other));
     } else if (other is List<int>) {
-      return new String.fromCharCodes([]..addAll(chars)..addAll(other));
+      return new StringEditor.fromCharCodes([]..addAll(chars)..addAll(other));
     } else if (other is StringEditor) {
       return new StringEditor.fromCharCodes(
           []..addAll(chars)..addAll(other.chars));
