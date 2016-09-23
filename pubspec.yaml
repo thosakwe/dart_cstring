@@ -1,7 +1,7 @@
-name: cstring
-description: Char support + Native bindings for a few <cstring> functions.
+name: string_editor
+description: Library for editing strings on a character-by-character basis.
 author: Tobe O <thosakwe@gmail.com>
-version: 1.0.0-dev
-homepage: https://github.com/thosakwe/dart_cstring
+version: 1.0.0-dev+1
+homepage: https://github.com/thosakwe/string_editor
 dev_dependencies:
   test: ">=0.12.15+6 <0.13.0"
