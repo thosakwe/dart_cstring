@@ -68,4 +68,6 @@ main() {
     print("Trimmed: '$editor'");
     expect(editor.toString(), equals(sourceCode.trim()));
   });
+
+  test("iterator", () {});
 }

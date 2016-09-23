@@ -7,4 +7,8 @@ main() {
   for (var ch in editor.toList().where((ch) => ch.isAlphaNumeric(underscore: false))) {
     print("Found a letter or number: $ch");
   }
+
+  for (var ch in editor) {
+    print(ch);
+  }
 }
